@@ -6,7 +6,7 @@ import "./globals.css"
 const poppins = Poppins({ subsets: ["latin"], weight: ["400", "500", "600"] })
 
 export const metadata: Metadata = {
-  title: "Maragogi Turismo",
+  title: "Marcondes Turismo",
 }
 
 export default function RootLayout({
