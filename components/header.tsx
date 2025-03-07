@@ -11,6 +11,7 @@ export default function Header() {
     return (
         <header className="p-2 sticky top-0 z-50 w-full bg-[#ffa200] backdrop-blur supports-[backdrop-filter]:bg-[#ffa200]/100 flex justify-center text-center items-center text-white">
             <div className="container flex h-16 items-center justify-between">
+
                 {/* Logo */}
                 <Link href="/" className="flex items-center gap-2 text-lg font-bold">
                     <MapPin fill="white" className="h-6 w-6 text-primary" />

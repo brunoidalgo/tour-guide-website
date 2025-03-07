@@ -5,8 +5,8 @@ export default function Contact() {
     return (
         <section id="contact" className="p-16 max-md:p-18">
             <div className="container">
-                <div className="flex gap-4 justify-between">
-                    <div className="max-w-[400px]">
+                <div className="flex max-md:flex-col gap-4 justify-between">
+                    <div className="w-full">
                         <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Fale Conosco</h2>
                         <p className="mt-4 text-muted-foreground">
                             Entre em contato conosco para obter mais informações sobre nossos passeios e serviços
@@ -66,7 +66,7 @@ export default function Contact() {
                         </div>
                     </div>
                     <div>
-                        <Image alt="marcondes-turismo" className="rounded-xl object-cover h-[400px]" src={maragogi} />
+                        <Image alt="marcondes-turismo" className="rounded-xl object-cover h-[400px]" src={saoFrancisco} />
                     </div>
                 </div>
             </div>
@@ -74,5 +74,5 @@ export default function Contact() {
     )
 }
 
-import maragogi from "@/public/maragogi.jpg"
+import saoFrancisco from "@/public/foz-rio-sao-francisco.jpeg"
 import Link from "next/link"

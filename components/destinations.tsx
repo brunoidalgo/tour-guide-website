@@ -1,6 +1,5 @@
 import { Card, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 
-import maragogi from "@/public/maragogi.jpg"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 
@@ -41,6 +40,9 @@ export default function Destinations() {
     )
 }
 
+import maragogi from "@/public/maragogi.jpg"
+import gunga from "@/public/gunga.jpeg"
+import saoMiguel from "@/public/sao-miguel-milagres.jpeg"
 
 const destinations = [
     {
@@ -53,12 +55,12 @@ const destinations = [
         id: 2,
         name: "Gunga, Maceió",
         description: "Tenha experiências incríveis no Gunga 🤩",
-        image: maragogi,
+        image: gunga,
     },
     {
         id: 3,
         name: "São Miguel dos Milagres, Maceió",
         description: "Descubra a beleza de São Miguel dos Milagres 🤩",
-        image: maragogi,
+        image: saoMiguel,
     },
 ]

@@ -6,7 +6,7 @@ import Link from "next/link"
 
 export default function HeroSection() {
     return (
-        <section id="hero" className="relative">
+        <section id="hero" className="relative flex justify-center items-center">
             <div className="absolute inset-0 z-10 bg-black/20" />
             <div className="relative h-[70vh] w-full">
                 <Image
@@ -17,7 +17,7 @@ export default function HeroSection() {
                     priority
                 />
             </div>
-            <div className="container absolute inset-0 z-20 flex flex-col items-center justify-center text-center text-white">
+            <div className="absolute inset-0 z-20 flex flex-col items-center justify-center text-center text-white">
                 <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">Explore Maceió Conosco 😎</h1>
                 <p className="mt-4 max-w-[300px] text-xs sm:text-base">
                     Os Melhores destinos para você aproveitar com sua família e amigos você encontra aqui 👌
