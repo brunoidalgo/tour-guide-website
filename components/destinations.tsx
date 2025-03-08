@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button"
 
 export default function Destinations() {
     return (
-        <section id="destinations" className="p-16 md:p-24 bg-white text-primary">
+        <section id="destinations" className="p-16 md:p-24 bg-white text-primary flex flex-col items-center justify-center">
             <div className="container">
                 <div className="mb-12 text-center">
                     <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Destinos Populares 🤩</h2>

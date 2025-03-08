@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export default function Contact() {
     return (
-        <section id="contact" className="p-16 max-md:p-18">
+        <section id="contact" className="p-16 max-md:p-18 flex flex-col items-center justify-center">
             <div className="container">
                 <div className="flex max-md:flex-col gap-4 justify-between">
                     <div className="w-full">

@@ -6,7 +6,7 @@ import { Star } from "lucide-react"
 
 export default function Testimonials() {
     return (
-        <section id="testimonials" className="bg-muted p-8 md:p-20">
+        <section id="testimonials" className="bg-muted p-8 md:p-20 flex flex-col items-center justify-center">
             <div className="container">
                 <div className="mb-12 text-center">
                     <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Feedbacks 😁</h2>
