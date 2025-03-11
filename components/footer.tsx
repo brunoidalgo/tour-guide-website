@@ -1,4 +1,3 @@
-import { MapPin } from 'lucide-react'
 import Link from 'next/link'
 
 export default function Footer() {
@@ -6,15 +5,6 @@ export default function Footer() {
         <footer className="border-t bg-muted flex items-center justify-center">
             <div className="container p-8 md:p-12">
                 <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-4">
-                    <div>
-                        <div className="flex items-center gap-2 text-lg font-bold">
-                            <MapPin className="h-6 w-6 text-primary" />
-                            <span>Marcondes Turismo</span>
-                        </div>
-                        <p className="mt-4 text-sm text-muted-foreground">
-                            Descubra destinos incríveis, experiências autênticas e guias locais especializados
-                        </p>
-                    </div>
                     <div>
                         <h3 className="mb-4 text-sm font-medium">Links Rápidos</h3>
                         <ul className="space-y-2 text-sm">

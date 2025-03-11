@@ -62,7 +62,7 @@ export default function Tours() {
                 <div className="mt-12 text-center">
                     <Link href="https://wa.me/+558281527890">
                         <Button variant="outline" size="lg">
-                            Ver mais passeios
+                            Fale Conosco!
                         </Button>
                     </Link>
                 </div>
@@ -71,17 +71,17 @@ export default function Tours() {
     )
 }
 
-import maragogi from "@/public/maragogi.jpg"
 import gunga from "@/public/gunga.jpeg"
 import saoMiguel from "@/public/sao-miguel-milagres.jpeg"
 import riosaofrancisco from "@/public/foz-rio-sao-francisco.jpeg"
+import paripueira from "@/public/paripueira.jpg"
 
 import Link from "next/link"
 
 const tours = [
     {
         id: 1,
-        name: " Gunga",
+        name: "Praia do Gunga",
         description: "Desfrute de uma vista incrível do Mirante do Gunga",
         image: gunga,
         duration: "1 Dia",
@@ -108,6 +108,18 @@ const tours = [
         name: "Foz do Rio São Francisco",
         description: "Desfrute de uma vista incrível do Foz do Rio São Francisco",
         image: riosaofrancisco,
+        duration: "1 Dia",
+        location: "Gunga, Maceió, Brasil",
+        dates: "Ano todo",
+        groupSize: "Máximo 6 pessoas",
+        price: 250,
+        rating: 4.9,
+    },
+    {
+        id: 4,
+        name: "Paripueira",
+        description: "Desfrute de uma vista incrível do Foz do Rio São Francisco",
+        image: paripueira,
         duration: "1 Dia",
         location: "Gunga, Maceió, Brasil",
         dates: "Ano todo",

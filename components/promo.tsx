@@ -1,15 +1,15 @@
-import { Card, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
-
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 
-export default function Destinations() {
+import { Card, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
+
+export default function Promo() {
     return (
-        <section id="destinations" className="p-16 md:p-24 bg-white text-primary flex flex-col items-center justify-center">
+        <section id="destinations" className="p-16 md:p-24 bg-white text-primary flex flex-col items-center justify-center text-center">
             <div className="container">
                 <div className="mb-12 text-center">
-                    <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Destinos Populares 🤩</h2>
-                    <p className="mt-4 text-muted-foreground">Explore destinos incríveis e descubra o mundo
+                    <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Promoções 🤩</h2>
+                    <p className="mt-4 text-muted-foreground">Curta 3 dias de passeio em 5 destinos com sua família!
                     </p>
                 </div>
                 <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -27,24 +27,26 @@ export default function Destinations() {
                                 <CardTitle>{destination.name}</CardTitle>
                                 <CardDescription>{destination.description}</CardDescription>
                             </CardHeader>
-                            <CardFooter>
-                                <Link href={"https://wa.me/+558281527890"}>
-                                    <Button variant="outline" className="w-full underline">
-                                        Agendar meu passeio!
-                                    </Button>
-                                </Link>
-                            </CardFooter>
                         </Card>
                     ))}
                 </div>
             </div>
+            <Link href={"https://wa.me/+558281527890"}>
+                <Button className="w-[200px] min-h-[60px] underline flex-wrap mt-12 bg-[#25D366] text-white">
+                    Agendar meu passeio!
+                </Button>
+            </Link>
         </section>
     )
 }
 
-import maragogi from "@/public/maragogi.jpg"
 import gunga from "@/public/gunga.jpeg"
 import saoMiguel from "@/public/sao-miguel-milagres.jpeg"
+import capitaoNikolas from "@/public/capitaoNikolas.jpg"
+import dunasMarape from "@/public/dunasMarape.jpg"
+import frances from "@/public/frances.jpg"
+import maragogi from "@/public/maragogi.jpg"
+
 import Link from "next/link"
 
 const destinations = [
@@ -67,21 +69,21 @@ const destinations = [
         image: saoMiguel,
     },
     {
-        id: 4,
+        id: 3,
         name: "Capitão Nikolas, Maceió",
         description: "Descubra a beleza de Praia Capitão Nikolas 🤩",
-        image: saoMiguel,
+        image: capitaoNikolas,
+    },
+    {
+        id: 4,
+        name: "Dunas de Marapé, Maceió",
+        description: "Descubra a beleza de Dunas de Marapé 🤩",
+        image: dunasMarape,
     },
     {
         id: 5,
-        name: "Dunas de Marapé, Maceió",
-        description: "Descubra a beleza de Dunas de Marapé 🤩",
-        image: saoMiguel,
-    },
-    {
-        id: 3,
         name: "Francês, Maceió",
         description: "Descubra a beleza de Francês 🤩",
-        image: saoMiguel,
+        image: frances,
     },
 ]
