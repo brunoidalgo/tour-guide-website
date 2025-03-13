@@ -19,22 +19,20 @@ export default function About() {
                         </p>
                         <div className="m-8 flex flex-wrap gap-4 text-center justify-center">
                             <div className="flex flex-col">
-                                <span className="text-3xl font-bold text-primary">1000+</span>
-                                <span className="text-sm text-muted-foreground">Passeios</span>
-                                <span className="text-sm text-muted-foreground">Privativos</span>
+                                <span className="text-3xl font-bold text-primary">1000+ 🚗</span>
+                                <span className="text-sm text-muted-foreground">Passeios privativos</span>
                             </div>
                             <div className="flex flex-col">
-                                <span className="text-3xl font-bold text-primary">50+</span>
+                                <span className="text-3xl font-bold text-primary">50+ 🧳</span>
                                 <span className="text-sm text-muted-foreground">Destinos</span>
                             </div>
                             <div className="flex flex-col">
-                                <span className="text-3xl font-bold text-primary">10k+</span>
-                                <span className="text-sm text-muted-foreground">Clientes
+                                <span className="text-3xl font-bold text-primary">2Mil+ 🥰</span>
+                                <span className="text-sm text-muted-foreground">Clientes satisfeitos
                                 </span>
-                                <span className="text-sm text-muted-foreground">Satisfeitos</span>
                             </div>
                             <div className="flex flex-col">
-                                <span className="text-3xl font-bold text-primary">4.9</span>
+                                <span className="text-3xl font-bold text-primary">4.9 😍</span>
                                 <span className="text-sm text-muted-foreground">Avaliação</span>
                             </div>
                         </div>

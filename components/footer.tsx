@@ -72,7 +72,7 @@ export default function Footer() {
                             © {new Date().getFullYear()} Marcondes Turismo. Todos os direitos reservados.
                         </p>
                         <div className="flex gap-4">
-                            <Link href="#" className="text-muted-foreground hover:text-foreground">
+                            <Link href="https://www.facebook.com/profile.php?id=61565094161158" target='_blank' className="text-muted-foreground hover:text-foreground">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="24"
@@ -89,7 +89,7 @@ export default function Footer() {
                                 </svg>
                                 <span className="sr-only">Facebook</span>
                             </Link>
-                            <Link href="#" className="text-muted-foreground hover:text-foreground">
+                            <Link href="https://www.instagram.com/marcondesturismoalof/" target='_blank' className="text-muted-foreground hover:text-foreground">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="24"

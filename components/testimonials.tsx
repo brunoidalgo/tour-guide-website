@@ -7,7 +7,7 @@ import { Star } from "lucide-react"
 export default function Testimonials() {
     return (
         <section id="testimonials" className="bg-muted p-8 md:p-20 flex flex-col items-center justify-center">
-            <div className="container">
+            <div className="container mb-12">
                 <div className="mb-12 text-center">
                     <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Feedbacks 😁</h2>
                     <p className="mt-4 text-muted-foreground">
@@ -43,7 +43,7 @@ export default function Testimonials() {
                                         />
                                     ))}
                                 </div>
-                                <p className="text-muted-foreground">{testimonial.comment}</p>
+                                <p className="text-muted-foreground w-[250px]">{testimonial.comment}</p>
                             </CardContent>
                         </Card>
                     ))}
@@ -56,29 +56,47 @@ export default function Testimonials() {
 const testimonials = [
     {
         id: 1,
-        name: "Sarah Johnson",
+        name: "B Fogaca",
         avatar: maragogi,
         tour: "São Miguel dos Milagres",
         rating: 5,
         comment:
-            "Nosso guia foi incrível! Ele nos levou a lugares que nunca teríamos encontrado sozinhos. A comida era deliciosa e as acomodações eram confortáveis.",
+            "Parabéns Marcondes e Ana, pessoas incríveis especiais e profissionais excelentes! Com certeza voltaremos a Maceió e contrataremos o serviço da Marcondes Turismo!",
     },
     {
         id: 2,
-        name: "David Chen",
+        name: "Marcos e Jacqui",
         avatar: maragogi,
-        tour: "Mirante do Gunga",
+        tour: "Maragogi",
         rating: 5,
         comment:
-            "Nosso guia foi incrível! Ele nos levou a lugares que nunca teríamos encontrado sozinhos. A comida era deliciosa e as acomodações eram confortáveis.",
+            "Passeio maravilhoso obrigado a Marcondes Turismo por essa oportunidade de conhecer esse lugar mágico Maragogi um verdadeira Paraíso",
     },
     {
         id: 3,
-        name: "Maria Rodriguez",
+        name: "Superclean Franca Higienização",
         avatar: maragogi,
         tour: "Maragogi",
         rating: 4,
         comment:
-            "Nosso guia foi incrível! Ele nos levou a lugares que nunca teríamos encontrado sozinhos. A comida era deliciosa e as acomodações eram confortáveis.",
+            "Super indico, de confiança, tudo que foi combinado, foi cumprido, eu e minha família estamos muito satisfeitos com seus serviços, obrigado 🙏",
+    },
+    {
+        id: 4,
+        name: "Kelly Bertolini",
+        avatar: maragogi,
+        tour: "Maragogi",
+        rating: 4,
+        comment:
+            "Melhor empresa com as guias mais top de Alagoas! 👏",
+    },
+    {
+        id: 5,
+        name: "July",
+        avatar: maragogi,
+        tour: "Maragogi",
+        rating: 4,
+        comment:
+            "Meu sonho também era conhecer Maceió, eu amei e super indíco a Marcondes Turismo, atendimento top, super carismático, quem me atendeu foi a Ana Cleia juntamente com o Marcondes, o povo bom sô, amei, amei, amei, super recomendo 👏👏",
     },
 ]

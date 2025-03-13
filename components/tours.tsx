@@ -6,8 +6,8 @@ import { Calendar, MapPin, Star, Users } from "lucide-react"
 
 export default function Tours() {
     return (
-        <section id="tours" className="flex justify-center items-center bg-muted p-16 md:p-24">
-            <div className="container">
+        <section id="tours" className="flex justify-center items-center text-center bg-muted p-16 md:p-24">
+            <div className="flex justify-center flex-col items-center w-full text-center">
                 <div className="mb-12 text-center">
                     <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Passeios mais procurados 😁</h2>
                     <p className="mt-4 text-muted-foreground">

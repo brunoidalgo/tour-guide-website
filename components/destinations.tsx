@@ -12,7 +12,7 @@ export default function Destinations() {
                     <p className="mt-4 text-muted-foreground">Explore destinos incríveis e descubra o mundo
                     </p>
                 </div>
-                <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                <div className="flex justify-center items-center gap-8 flex-wrap">
                     {destinations.map((destination) => (
                         <Card key={destination.id} className="overflow-hidden">
                             <div className="relative h-48">
@@ -29,8 +29,8 @@ export default function Destinations() {
                             </CardHeader>
                             <CardFooter>
                                 <Link href={"https://wa.me/+558281527890"}>
-                                    <Button variant="outline" className="w-full underline">
-                                        Agendar meu passeio!
+                                    <Button variant="outline" className="w-full">
+                                        Agendar meu passeio
                                     </Button>
                                 </Link>
                             </CardFooter>
@@ -45,6 +45,10 @@ export default function Destinations() {
 import maragogi from "@/public/maragogi.jpg"
 import gunga from "@/public/gunga.jpeg"
 import saoMiguel from "@/public/sao-miguel-milagres.jpeg"
+import capitaoNikolas from "@/public/capitaoNikolas.jpg"
+import dunas from "@/public/dunasMarape.jpg"
+import frances from "@/public/frances.jpg"
+
 import Link from "next/link"
 
 const destinations = [
@@ -70,18 +74,18 @@ const destinations = [
         id: 4,
         name: "Capitão Nikolas, Maceió",
         description: "Descubra a beleza de Praia Capitão Nikolas 🤩",
-        image: saoMiguel,
+        image: capitaoNikolas,
     },
     {
         id: 5,
         name: "Dunas de Marapé, Maceió",
         description: "Descubra a beleza de Dunas de Marapé 🤩",
-        image: saoMiguel,
+        image: dunas,
     },
     {
         id: 3,
         name: "Francês, Maceió",
         description: "Descubra a beleza de Francês 🤩",
-        image: saoMiguel,
+        image: frances,
     },
 ]
