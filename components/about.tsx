@@ -9,7 +9,7 @@ export default function About() {
                     <div className="max-w-[400px]">
                         <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Marcondes Turismo 😁</h2>
                         <p className="mt-4 text-muted-foreground">
-                            Maragogi Turismo é uma agência de viagens especializada em passeios locais e experiências autênticas.
+                            Marcondes Turismo é uma agência de viagens especializada em passeios locais e experiências autênticas.
                             Nossos guias locais são especialistas em seus destinos e estão comprometidos em fornecer uma
                             experiência inesquecível.
                         </p>
