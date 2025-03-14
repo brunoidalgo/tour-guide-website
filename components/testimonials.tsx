@@ -90,7 +90,7 @@ const testimonials = [
         name: "Kelly Bertolini",
         avatar: gunga,
         tour: "Gunga",
-        rating: 4.5,
+        rating: 5,
         comment:
             "Melhor empresa com as guias mais top de Alagoas! 👏",
     },
@@ -99,7 +99,7 @@ const testimonials = [
         name: "July",
         avatar: saoMiguel,
         tour: "São Miguel dos Milagres",
-        rating: 4.5,
+        rating: 5,
         comment:
             "Meu sonho também era conhecer Maceió, eu amei e super indíco a Marcondes Turismo, atendimento top, super carismático, quem me atendeu foi a Ana Cleia juntamente com o Marcondes, o povo bom sô, amei, amei, amei, super recomendo 👏👏",
     },

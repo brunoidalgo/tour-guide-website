@@ -54,7 +54,7 @@ export default function Tours() {
                                     <span className="text-2xl font-bold">R${tour.price}</span>
                                     <span className="text-sm text-muted-foreground"> / pessoa</span>
                                 </div>
-                                <Button className="bg-white text-black border-2 underline">Agendar</Button>
+                                <Button className="bg-white text-black border-2">Saiba Mais!</Button>
                             </CardFooter>
                         </Card>
                     ))}
@@ -75,21 +75,22 @@ import gunga from "@/public/gunga.jpeg"
 import saoMiguel from "@/public/sao-miguel-milagres.jpeg"
 import riosaofrancisco from "@/public/foz-rio-sao-francisco.jpeg"
 import paripueira from "@/public/paripueira.jpg"
+import maragogi from "@/public/maragogi.jpg"
 
 import Link from "next/link"
 
 const tours = [
     {
         id: 1,
-        name: "Praia do Gunga",
+        name: "Gunga",
         description: "Desfrute de uma vista incrível do Mirante do Gunga",
         image: gunga,
         duration: "1 Dia",
         location: "Gunga, Maceió, Brasil",
-        dates: "Ano todo",
-        groupSize: "Máximo 6 pessoas",
+        dates: "Consultar disponibilidade",
+        groupSize: "Até 4 pessoas",
         price: 250,
-        rating: 4.9,
+        rating: 5,
     },
     {
         id: 2,
@@ -97,11 +98,23 @@ const tours = [
         description: "Desfrute de uma vista incrível de São Miguel dos Milagres",
         image: saoMiguel,
         duration: "1 Dia",
-        location: "Gunga, Maceió, Brasil",
-        dates: "Ano todo",
-        groupSize: "Máximo 6 pessoas",
-        price: 250,
-        rating: 4.9,
+        location: "São Miguel dos Milagres, Maceió, Brasil",
+        dates: "Consultar disponibilidade",
+        groupSize: "Até 4 pessoas",
+        price: 350,
+        rating: 5,
+    },
+    {
+        id: 2,
+        name: "Ipioca",
+        description: "Desfrute de uma vista incrível da Praia de Ipioca",
+        image: saoMiguel,
+        duration: "1 Dia",
+        location: "Ipioca, Maceió, Brasil",
+        dates: "Consultar disponibilidade",
+        groupSize: "Até 4 pessoas",
+        price: 200,
+        rating: 5,
     },
     {
         id: 3,
@@ -109,11 +122,11 @@ const tours = [
         description: "Desfrute de uma vista incrível do Foz do Rio São Francisco",
         image: riosaofrancisco,
         duration: "1 Dia",
-        location: "Gunga, Maceió, Brasil",
-        dates: "Ano todo",
-        groupSize: "Máximo 6 pessoas",
-        price: 250,
-        rating: 4.9,
+        location: "Foz do Rio São Francisco, Maceió, Brasil",
+        dates: "Consultar disponibilidade",
+        groupSize: "Até 4 pessoas",
+        price: 400,
+        rating: 5,
     },
     {
         id: 4,
@@ -121,10 +134,22 @@ const tours = [
         description: "Desfrute de uma vista incrível do Foz do Rio São Francisco",
         image: paripueira,
         duration: "1 Dia",
-        location: "Gunga, Maceió, Brasil",
-        dates: "Ano todo",
-        groupSize: "Máximo 6 pessoas",
+        location: "Paripueira, Maceió, Brasil",
+        dates: "Consultar disponibilidade",
+        groupSize: "Até 4 pessoas",
         price: 250,
-        rating: 4.9,
+        rating: 5,
+    },
+    {
+        id: 5,
+        name: "Maragogi",
+        description: "Desfrute de uma vista incrível de Maragogi",
+        image: maragogi,
+        duration: "1 Dia",
+        location: "Maragogi, Maceió, Brasil",
+        dates: "Consultar disponibilidade",
+        groupSize: "Até 4 pessoas",
+        price: 400,
+        rating: 5,
     },
 ]

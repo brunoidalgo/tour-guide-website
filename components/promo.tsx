@@ -33,7 +33,7 @@ export default function Promo() {
             </div>
             <Link href={"https://wa.me/+558281527890"}>
                 <Button className="w-[200px] min-h-[50px] flex-wrap mt-12 bg-[#25D366] text-white">
-                    Agendar meu passeio
+                    Fale Comigo Agora
                 </Button>
             </Link>
         </section>
