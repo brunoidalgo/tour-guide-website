@@ -1,4 +1,8 @@
 import maragogi from "@/public/maragogi.jpg"
+import frances from "@/public/frances.jpg"
+import gunga from "@/public/gunga.jpeg"
+import saoMiguel from "@/public/sao-miguel-milagres.jpeg"
+
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import Image from "next/image"
 
@@ -75,27 +79,27 @@ const testimonials = [
     {
         id: 3,
         name: "Superclean Franca Higienização",
-        avatar: maragogi,
-        tour: "Maragogi",
-        rating: 4,
+        avatar: frances,
+        tour: "Francês",
+        rating: 5,
         comment:
             "Super indico, de confiança, tudo que foi combinado, foi cumprido, eu e minha família estamos muito satisfeitos com seus serviços, obrigado 🙏",
     },
     {
         id: 4,
         name: "Kelly Bertolini",
-        avatar: maragogi,
-        tour: "Maragogi",
-        rating: 4,
+        avatar: gunga,
+        tour: "Gunga",
+        rating: 4.5,
         comment:
             "Melhor empresa com as guias mais top de Alagoas! 👏",
     },
     {
         id: 5,
         name: "July",
-        avatar: maragogi,
-        tour: "Maragogi",
-        rating: 4,
+        avatar: saoMiguel,
+        tour: "São Miguel dos Milagres",
+        rating: 4.5,
         comment:
             "Meu sonho também era conhecer Maceió, eu amei e super indíco a Marcondes Turismo, atendimento top, super carismático, quem me atendeu foi a Ana Cleia juntamente com o Marcondes, o povo bom sô, amei, amei, amei, super recomendo 👏👏",
     },
