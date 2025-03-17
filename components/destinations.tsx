@@ -28,7 +28,7 @@ export default function Destinations() {
                                 <CardDescription>{destination.description}</CardDescription>
                             </CardHeader>
                             <CardFooter>
-                                <Link href={"https://wa.me/+558281527890"}>
+                                <Link href={"https://wa.me/+558281527890/?text=Vim%20do%20Google%20e%20quero%20saber%20mais%20sobre%20os%destinos,%20por%20gentileza"}>
                                     <Button variant="outline" className="w-full">
                                         Agendar meu passeio
                                     </Button>

@@ -31,7 +31,7 @@ export default function Promo() {
                     ))}
                 </div>
             </div>
-            <Link href={"https://wa.me/+558281527890"}>
+            <Link href={"https://wa.me/+558281527890/?text=Vim%20do%20Google%20e%20quero%20saber%20mais%20sobre%20a%20promoção,%20por%20gentileza"}>
                 <Button className="w-[200px] min-h-[50px] flex-wrap mt-12 bg-[#25D366] text-white">
                     Fale Comigo Agora
                 </Button>

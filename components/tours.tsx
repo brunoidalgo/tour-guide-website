@@ -60,7 +60,7 @@ export default function Tours() {
                     ))}
                 </div>
                 <div className="mt-12 text-center">
-                    <Link href="https://wa.me/+558281527890">
+                    <Link href="https://wa.me/+558281527890/?text=Vim%20do%20Google%20e%20quero%20saber%20mais%20sobre%20os%20passeios,%20por%20gentileza">
                         <Button variant="outline" size="lg">
                             Fale Conosco!
                         </Button>

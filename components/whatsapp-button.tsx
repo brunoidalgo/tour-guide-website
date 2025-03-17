@@ -2,7 +2,7 @@ export default function WhatsappButton() {
     return (
         <div className="fixed bottom-6 right-6 z-50">
             <a
-                href="https://wa.me/+558281527890"
+                href="https://wa.me/+558281527890/?text=Vim%20do%20Google%20e%20quero%20saber%20mais%20sobre%20os%20passeios,%20por%20gentileza"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center w-14 h-14 bg-[#25D366] text-white rounded-full shadow-lg hover:bg-[#128C7E] transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#25D366]"
