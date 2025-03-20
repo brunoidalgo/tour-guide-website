@@ -13,8 +13,6 @@ export default function TourGuidePage() {
     <div className="flex min-h-screen flex-col text-black">
       <main className="flex-1">
         <HeroSection />
-        <Destinations />
-        <Tours />
         <About />
         <Testimonials />
         <Promo />
